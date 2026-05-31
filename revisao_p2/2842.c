@@ -6,8 +6,13 @@ int max(int a, int b){
 }
 
 int main(){
+<<<<<<< HEAD
     char stringA[101];
     char stringB[101];
+=======
+    char stringA[1001];
+    char stringB[1001];
+>>>>>>> 6d4110223a07ccfb3c1074617da4784df5bb8722
 
     scanf(" %s", stringA);
     scanf(" %s", stringB);
@@ -15,7 +20,11 @@ int main(){
     int n = strlen(stringA);
     int m = strlen(stringB);
 
+<<<<<<< HEAD
     int char_comum[101][101];
+=======
+    int char_comum[1001][1001];
+>>>>>>> 6d4110223a07ccfb3c1074617da4784df5bb8722
 
     for(int i = 0; i <= n; i++){
         for(int j = 0; j <= m; j++){
