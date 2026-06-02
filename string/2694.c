@@ -20,7 +20,7 @@ int main(){
                 lendo_num = 1;
             } else {
                 if(lendo_num){
-                    som+= num;
+                    soma+= num;
                     num = 0;
                     lendo_num = 0;
                 }
