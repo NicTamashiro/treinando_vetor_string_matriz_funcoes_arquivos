@@ -3,8 +3,7 @@
 void preencher(int * arr, int primeiro_valor){
     arr[0] = primeiro_valor;
     for(int i = 1; i < 10; i++){
-        arr[i] = primeiro_valor*2;
-        primeiro_valor = arr[i];
+        arr[i] = arr[i - 1] * 2;
     }
 }
 
